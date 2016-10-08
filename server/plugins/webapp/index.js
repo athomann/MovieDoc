@@ -75,7 +75,7 @@ function makeRouteHandler(options, userContent) {
 
     const makeBundles = () => {
       const css = bundleCss();
-      const cssLink = css ? `<link rel="stylesheet" href="${css}" />` : "";
+      const cssLink = css ? `<link rel="stylesheet" type="text/css" href="${css}" />` : "";
       const js = bundleJs();
       const jsLink = js ? `<script src="${js}"></script>` : "";
       return `${cssLink}${jsLink}`;
