@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 400px;
+}
+
+.description {
+  margin: 0;
+}
+
+.duration {
+  display: block;
+  margin: 0.2rem 0;
+}
+
+.heading {
+  margin: 0.2rem 0;
+}
+
+.item {
+  padding: 0 0.4rem 0 0;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.purchaseButton {
+  background-color: rgb(30, 48, 180);
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 1rem 0 0;
+  padding: 1rem;
+  text-align: center;
+
+  &:hover {
+    background-color: rgba(30, 48, 180, 0.9)
+  }
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.rank {
+  margin: 0 0 0 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.section {
+  margin: 0.2rem 0;
+}
+
+.title {
+  font-size: 1.8rem;
+}
