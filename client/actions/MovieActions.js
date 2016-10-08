@@ -4,6 +4,7 @@ import {
   MOVIES_BY_RANK_URL,
   MOVIE_DETAIL_URL,
 } from '../constants/constants';
+import fetch from 'isomorphic-fetch';
 
 // ***** Considerations *****
 // Put ActionTypes in seperate file
