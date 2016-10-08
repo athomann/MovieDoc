@@ -4,16 +4,10 @@
 ## Installation
 
 ```sh
-$ npm install --save MovieDoc
+$ npm install
+$ gulp dev
 ```
 
-## Usage
-
-```js
-var movieDoc = require('MovieDoc');
-
-movieDoc('Rainbow');
-```
 ## License
 
  © [Adam Thomann](http://adamthomann.com)
